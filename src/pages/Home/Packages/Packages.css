@@ -1,0 +1,8 @@
+.package-container {
+  padding: 50px 0;
+}
+.packages {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}

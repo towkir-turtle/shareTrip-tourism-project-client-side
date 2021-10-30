@@ -1,0 +1,6 @@
+.singlePackage .packageImg {
+  width: 280px;
+  height: 330px;
+  border-radius: 10px;
+  cursor: pointer;
+}

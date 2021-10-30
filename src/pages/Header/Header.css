@@ -1,0 +1,9 @@
+.nav .nav-item {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+.nav:last-child {
+  margin-right: 0;
+}
