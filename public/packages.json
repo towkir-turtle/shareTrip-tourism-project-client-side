@@ -5,7 +5,7 @@
         "name": "Agra",
         "description": "Agra is a city on the banks of the Yamuna river in the Indian state of Uttar Pradesh, about 210 kilometres south of the national capital New Delhi and 335km west of the state capital Lucknow.",
         "totalPackage": "10 packages",
-        "price": "BDT 13,750"
+        "price": "13,750"
     },
     {   
         "id": 2,
@@ -13,7 +13,7 @@
         "name": "Paro",
         "description": "Paro is a valley town in Bhutan, west of the capital, Thimphu. It is the site of the country’s only international airport and is also known for the many sacred sites in the area. North of town, the Taktsang Palphug (Tiger’s Nest) monastery clings to cliffs above the forested Paro Valley. Northwest of here are the remains of a defensive fortress, Drukgyel Dzong, dating from the 17th century",
         "totalPackage": "11 packages",
-        "price": "BDT 36,850"
+        "price": "36,850"
     },
     {   
         "id": 3,
@@ -21,7 +21,7 @@
         "name": "Singapore",
         "description": "Tourism is a major industry and contributor to the Singaporean economy, attracting 18.5 million international tourists in 2018, more than three times Singapore's total population.[314] Singapore is the 5th most visited city in the world, and 2nd in the Asia-Pacific.[315] In 2019 tourism contributed directly to about 4% of Singapore's GDP,[316] down from 2016, when tourism contributed, directly and indirectly, to around 9.9% of Singapore's GDP.[317] Altogether, the sector generated approximately 8.6% of Singapore's employment in 2016",
         "totalPackage": "35 packages",
-        "price": "BDT 9,350"
+        "price": "9,350"
     },
     {   
         "id": 4,
@@ -29,7 +29,7 @@
         "name": "Bangkok",
         "description": "Bangkok, Thailand’s capital, is a large city known for ornate shrines and vibrant street life. The boat-filled Chao Phraya River feeds its network of canals, flowing past the Rattanakosin royal district, home to opulent Grand Palace and its sacred Wat Phra Kaew Temple. Nearby is Wat Pho Temple with an enormous reclining Buddha and, on the opposite shore, Wat Arun Temple with its steep steps and Khmer-style spire",
         "totalPackage": "66 packages",
-        "price": "BDT 11,000"
+        "price": "11,000"
     },
     {   
         "id": 5,
@@ -37,7 +37,7 @@
         "name": "Bali",
         "description": "Bali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs. The island is home to religious sites such as cliffside Uluwatu Temple. To the south, the beachside city of Kuta has lively bars, while Seminyak, Sanur and Nusa Dua are popular resort towns. The island is also known for its yoga and meditation retreats.",
         "totalPackage": "37 packages",
-        "price": "BDT 6,600"
+        "price": "6,600"
     },
     {   
         "id": 6,
@@ -45,7 +45,7 @@
         "name": "Hanoi",
         "description": "Hanoi, the capital of Vietnam, is known for its centuries-old architecture and a rich culture with Southeast Asian, Chinese and French influences. At its heart is the chaotic Old Quarter, where the narrow streets are roughly arranged by trade. There are many little temples, including Bach Ma, honoring a legendary horse, plus Đồng Xuân Market, selling household goods and street food",
         "totalPackage": "36 packages",
-        "price": "BDT 17,600"
+        "price": "17,600"
     },
     {   
         "id": 7,
@@ -53,7 +53,7 @@
         "name": "Kuala Lumpur",
         "description": "Kuala Lumpur is the capital of Malaysia. Its modern skyline is dominated by the 451m-tall Petronas Twin Towers, a pair of glass-and-steel-clad skyscrapers with Islamic motifs. The towers also offer a public skybridge and observation deck. The city is also home to British colonial-era landmarks such as the Kuala Lumpur Railway Station and the Sultan Abdul Samad Building",
         "totalPackage": "50 packages",
-        "price": "BDT 3,000"
+        "price": "3,000"
     },
     {   
         "id": 8,
@@ -61,6 +61,6 @@
         "name": "Kathmandu",
         "description": "Kathmandu, Nepal's capital, is set in a valley surrounded by the Himalayan mountains. At the heart of the old city’s mazelike alleys is Durbar Square, which becomes frenetic during Indra Jatra, a religious festival featuring masked dances. Many of the city's historic sites were damaged or destroyed by a 2015 earthquake. Durbar Square's palace, Hanuman Dhoka, and Kasthamandap, a wooden Hindu temple, are being rebuilt",
         "totalPackage": "20 packages",
-        "price": "BDT 5,940"
+        "price": "5,940"
     }
 ]

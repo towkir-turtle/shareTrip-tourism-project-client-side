@@ -13,32 +13,39 @@ initializeAuthentication();
 const useFirebase = () => {
   const [user, setUser] = useState({});
   const [error, setError] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   const auth = getAuth();
   const googleProvider = new GoogleAuthProvider();
 
   /* Sign In With Google */
   const signInUsingGoogle = () => {
-    signInWithPopup(auth, googleProvider).then((result) => {
-      const user = result.user;
-      setUser(user);
-    });
-  };
+    setIsLoading(true);
 
-  const logOut = () => {
-    signOut(auth).then(() => {
-      setUser({});
-    });
+    return signInWithPopup(auth, googleProvider).finally(() =>
+      setIsLoading(false)
+    );
   };
 
   // observe whether user auth state changed or not:
   useEffect(() => {
-    onAuthStateChanged(auth, (user) => {
+    const unsubscribed = onAuthStateChanged(auth, (user) => {
       if (user) {
         setUser(user);
+      } else {
+        setUser({});
       }
+      setIsLoading(false);
     });
+    return () => unsubscribed;
   }, []);
+
+  const logOut = () => {
+    setIsLoading(true);
+    signOut(auth)
+      .then(() => {})
+      .finally(() => setIsLoading(false));
+  };
 
   return {
     user,
@@ -46,7 +53,17 @@ const useFirebase = () => {
     logOut,
     error,
     setUser,
+    isLoading,
   };
 };
 
 export default useFirebase;
+
+/* 
+.then((result) => {
+        setUser(result.user);
+      })
+
+
+
+*/

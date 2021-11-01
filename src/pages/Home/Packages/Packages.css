@@ -4,5 +4,22 @@
 .packages {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+}
+.title {
+  padding-bottom: 20px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 668px) {
+  .packages {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (min-width: 669px) and (max-width: 991px) {
+  .packages {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

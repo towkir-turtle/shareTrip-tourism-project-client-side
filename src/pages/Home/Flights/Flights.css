@@ -1,0 +1,33 @@
+.flights {
+  margin: 50px 0;
+}
+.flight-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+}
+.flight {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 5px 5px rgba(138, 129, 129, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+}
+.flight-img img {
+  border-radius: 10px;
+}
+.flight-info {
+  display: flex;
+  align-items: center;
+}
+.flght-img img {
+  border-radius: 10px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 991px) {
+  .flight-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+  }
+}

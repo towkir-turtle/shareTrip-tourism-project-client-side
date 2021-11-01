@@ -16,7 +16,7 @@ const Packages = () => {
   return (
     <div className="package-container">
       <Container>
-        <h2>Packages in Popular Destinations</h2>
+        <h2 className="title">Packages in Popular Destinations</h2>
         <div className="packages">
           {packages.map((singlePackage) => (
             <SinglePackage

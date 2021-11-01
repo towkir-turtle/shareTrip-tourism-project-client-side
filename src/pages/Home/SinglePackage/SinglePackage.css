@@ -1,6 +1,21 @@
+.singlePackage {
+  display: flex;
+  justify-content: center;
+}
 .singlePackage .packageImg {
   width: 280px;
   height: 330px;
   border-radius: 10px;
   cursor: pointer;
+}
+.singlePackage h3 {
+  margin-top: 5px;
+}
+.detailsBtn {
+  text-decoration: none;
+  color: #fff;
+}
+.detailsBtn:hover {
+  text-decoration: none;
+  color: #fff;
 }

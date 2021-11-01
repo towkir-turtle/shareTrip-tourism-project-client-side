@@ -7,3 +7,9 @@
 .nav:last-child {
   margin-right: 0;
 }
+.displayName {
+  margin-right: 5px;
+}
+.signOutBtn {
+  margin-top: -2px;
+}

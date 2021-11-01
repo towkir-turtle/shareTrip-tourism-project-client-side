@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./SinglePackage.css";
 const SinglePackage = (props) => {
@@ -6,17 +7,20 @@ const SinglePackage = (props) => {
   return (
     <div className="singlePackage">
       <div>
-        <img className="packageImg" src={img} />
-      </div>
-      <div>
-        <p>
-          <small>{totalPackage}</small>
-        </p>
-        <h3>{name}</h3>
-        <p>
-          <small>starts from</small> <span>{price}</span>{" "}
-        </p>
-        <Link to={`/packageDetails/${id}`}>view more</Link>
+        <div>
+          <img className="packageImg" src={img} />
+        </div>
+        <div>
+          <h3>{name}</h3>
+          <p>
+            <small>starts from BDT </small> <span>{price}</span>{" "}
+          </p>
+          <Button>
+            <Link className="detailsBtn" to={`/packageDetails/${id}`}>
+              view details
+            </Link>
+          </Button>
+        </div>
       </div>
     </div>
   );

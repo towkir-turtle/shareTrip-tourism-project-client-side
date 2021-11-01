@@ -21,26 +21,20 @@ const Header = () => {
               <Link className="nav-item" to="/home">
                 Home
               </Link>
-              <Link className="nav-item" to="/flights">
-                Flights
-              </Link>
-              <Link className="nav-item" to="/travelAdvisory">
-                Travel Advisory
-              </Link>
 
               {user.email && (
-                <Link className="nav-item" to="/myOrders">
-                  My Orders
+                <Link className="nav-item" to="/myPackages">
+                  My Packages
                 </Link>
               )}
               {user.email && (
-                <Link className="nav-item" to="/manageAllOrders">
-                  Manage All Orders
+                <Link className="nav-item" to="/manageAllPackages">
+                  Manage All Packages
                 </Link>
               )}
               {user.email && (
-                <Link className="nav-item" to="/addNewService">
-                  Add New Service
+                <Link className="nav-item" to="/addNewPackage">
+                  Add New Package
                 </Link>
               )}
 
@@ -48,7 +42,9 @@ const Header = () => {
                 <span className="displayName">{user.displayName}</span>
               )}
               {user.email ? (
-                <button onClick={logOut}>Sign Out</button>
+                <button className="signOutBtn" onClick={logOut}>
+                  Sign Out
+                </button>
               ) : (
                 <Link className="nav-item" to="/login">
                   Sign In

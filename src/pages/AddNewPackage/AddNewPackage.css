@@ -1,0 +1,18 @@
+.new-package {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.package-info {
+  width: 60%;
+  text-align: center;
+}
+.package-info h2 {
+  margin-bottom: 20px;
+}
+.booking-form input {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
