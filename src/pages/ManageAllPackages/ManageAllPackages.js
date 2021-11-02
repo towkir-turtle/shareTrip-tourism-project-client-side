@@ -5,7 +5,7 @@ const ManageAllPackages = () => {
   const [allBookings, setAllBookings] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/bookings")
+    fetch("https://murmuring-beach-97346.herokuapp.com/bookings")
       .then((res) => res.json())
       .then((data) => setAllBookings(data));
   }, []);

@@ -8,12 +8,14 @@ const AddNewPackage = () => {
 
   const onSubmit = (data) => {
     console.log(data);
-    axios.post("http://localhost:5000/packages", data).then((res) => {
-      if (res.data.insertedId) {
-        alert("Successfully added package");
-        reset();
-      }
-    });
+    axios
+      .post("https://murmuring-beach-97346.herokuapp.com/packages", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("Successfully added package");
+          reset();
+        }
+      });
   };
 
   return (

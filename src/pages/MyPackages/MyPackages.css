@@ -14,7 +14,7 @@ table {
 }
 td,
 th {
-  padding: 15px 100px;
+  padding: 15px 50px;
   text-align: center;
 }
 th {
@@ -34,10 +34,10 @@ tr:nth-child(even) {
 /* MEDIA QUERIES */
 @media only screen and (max-width: 668px) {
   table {
-    width: 80%;
+    width: 60%;
   }
   td,
   th {
-    padding: 15px 30px;
+    padding: 10px 20px;
   }
 }

@@ -12,7 +12,7 @@ const PackageDetails = () => {
 
   const [details, setDetails] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/packages")
+    fetch("https://murmuring-beach-97346.herokuapp.com/packages")
       .then((res) => res.json())
       .then((data) => setDetails(data));
   }, []);
@@ -20,12 +20,14 @@ const PackageDetails = () => {
 
   const onSubmit = (data) => {
     data.bookedPackage = singlePackage;
-    axios.post("http://localhost:5000/bookings", data).then((res) => {
-      if (res.data.insertedId) {
-        alert("Successfully booked package");
-        reset();
-      }
-    });
+    axios
+      .post("https://murmuring-beach-97346.herokuapp.com/bookings", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("Successfully booked package");
+          reset();
+        }
+      });
   };
 
   return (
